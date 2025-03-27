@@ -292,3 +292,33 @@ body {
     color: #666;
     font-size: 14px;
 }
+
+/* Home Page (dành cho index.html) */
+.home-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.home-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.home-container p {
+    font-size: 16px;
+    color: #666;
+}
+
+.home-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.home-container a:hover {
+    text-decoration: underline;
+}
