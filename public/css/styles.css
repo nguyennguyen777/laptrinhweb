@@ -69,7 +69,8 @@ body {
 }
 
 .form-group input[type="text"],
-.form-group input[type="password"] {
+.form-group input[type="password"],
+.form-group input[type="email"] {
     width: 100%;
     padding: 8px;
     border: 1px solid #ddd;
@@ -95,12 +96,12 @@ body {
 
 .forgot-password {
     text-decoration: none;
-    color: #666;
+    color: #007bff;
     font-size: 14px;
 }
 
 .forgot-password:hover {
-    color: #007bff;
+    color: #006ee4;
 }
 
 .login-btn {
