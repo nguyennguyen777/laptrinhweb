@@ -221,6 +221,65 @@ body {
     background-color: #f8f8f8;
 }
 
+/* User Detail (dành cho view.html) */
+.view-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.view-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.user-detail {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.detail-item {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-item .label {
+    font-weight: bold;
+    color: #333;
+}
+
+.detail-item .value {
+    color: #666;
+}
+
+.detail-actions {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.edit-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3;
+}
+
 /* Footer */
 .footer {
     text-align: center;
